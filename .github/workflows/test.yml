@@ -1,4 +1,3 @@
-name: Run Django Tests
 
 on:
   push:
@@ -10,6 +9,7 @@ on:
 
 jobs:
   test:
+    name: Run Django Tests
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repository
